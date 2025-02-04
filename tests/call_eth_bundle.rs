@@ -41,6 +41,9 @@ async fn test_call_eth_bundle() {
                 gas_limit: None,
                 difficulty: None,
                 base_fee: None,
+                coinbase: None,
+                timeout: None,
+                transaction_index: None,
             },
             &endpoints,
         )
